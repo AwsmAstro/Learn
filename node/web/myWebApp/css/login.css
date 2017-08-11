@@ -1,0 +1,63 @@
+body{
+    padding: 5px;
+}
+#container{
+    background: grey;
+}
+#log{
+    float: right;
+    height: 50px;
+    width: 550px;
+    margin-top: 25px;
+}
+.clear{
+    clear: both;
+}
+#header{
+    background: slategrey;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 9999;
+    border-radius: 5px 5px 0 0;
+    
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/calc.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 10px;
+    float: left;
+}
+#header h2{
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0;    
+    float: left;
+    margin-top: 35px;
+}
+#user{
+    float: left;
+}
+#pass{
+    float: right;
+    margin-right: 90px;
+}
+#pw{
+    float: left;
+    margin-right: 35px;
+}
+#btn{
+    float: right;
+    margin-top: 18px;
+}
+label, input{
+    display: block;
+}
+#signup{
+    width: 540px;
+    float: right;
+    background: lightcyan;
+}

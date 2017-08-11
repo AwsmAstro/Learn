@@ -1,0 +1,96 @@
+body{
+    padding: 10px;
+}
+#wrapper{
+    width: 940px;
+    margin: 0 auto;
+    background-image: url("../images/fom.png");
+    background-size: 320px 152px;
+    border-radius: 5px;
+}
+#header{
+    background: slategrey;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 9999;
+    border-radius: 5px 5px 0 0;
+    
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/calc.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 10px;
+    float: left;
+}
+
+#header h2{
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0;    
+    float: left;
+    margin-top: 35px;
+}
+#main{
+    padding: 50px;
+    margin: 0 auto 0 auto;
+    z-index: 9999;
+    background-color:slategrey;
+    opacity: .8;
+}
+#converter{
+    width: 350px;
+    padding: 10px;
+    background:rgba(255,255,255,0.5);
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+}
+#header{
+    background-color: black;
+    opacity: .8;
+}
+#clear{
+    clear: both;
+}
+#converter label{
+    display: block;
+}
+
+#answer{
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+#box1, #box2{
+    width: 100px;
+    float: left;
+}
+ #box3{
+     width: 210px;
+     height: 20px;
+     float: left;
+ }
+#box3 label, #currency2{
+    display: inline-block;
+}
+
+#bx2{
+    width: 48px;
+    float:right;
+}
+#bx1{
+    width: 80px;
+    float: left;
+}
+#footer{
+    background-color: black;
+    opacity: .8;
+    height: 50px;
+    z-index: 9999;
+    border-radius: 0 0 5px 5px;
+}
